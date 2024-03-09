@@ -11,7 +11,7 @@ class BaseModel(Model):
 
 class Members_mysql(BaseModel):
     age = IntegerField(null=True)
-    email = CharField(unique=True, null=True)
+    email = CharField(null=True)
     name = CharField(null=True)
     position = CharField(null=True)
     start_date = DateField(null=True)
